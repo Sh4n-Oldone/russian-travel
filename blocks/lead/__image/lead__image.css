@@ -1,0 +1,11 @@
+@import url(./_pic/lead__image_pic.css);
+@import url(./_path/lead__image_path.css);
+
+.lead__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 8px;
+  position: relative;
+}

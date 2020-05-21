@@ -1,0 +1,8 @@
+@import url(../__paragraph/place__paragraph.css);
+
+.place__paragraphs {
+  max-width: 484px;
+  width: 100%;
+  margin: 0 0 auto;
+  padding: 0;
+}

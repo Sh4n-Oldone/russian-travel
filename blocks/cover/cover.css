@@ -1,0 +1,19 @@
+@import url(/vendor/fonts/inter.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__background/cover__background.css);
+@import url(./__wrapper/__wrapper.css);
+
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  margin: 0 auto 92px;
+  max-width: 1184px;
+  width: 100%;
+  max-height: 740px;
+  position: relative;
+}

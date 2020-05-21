@@ -1,0 +1,14 @@
+@import url(/vendor/fonts/inter.css);
+@import url(./__links/footer__links.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  max-width: 1184px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
