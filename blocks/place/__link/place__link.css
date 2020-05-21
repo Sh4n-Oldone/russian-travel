@@ -1,11 +1,12 @@
 .place__link {
   display: flex;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   text-decoration: none;
   text-decoration-line: underline;
+  /* border-bottom: 1px solid #ffffff; По макету подходит больше */
   color: #ffffff;
   margin: 0 auto 0 0;
   padding: 0;
