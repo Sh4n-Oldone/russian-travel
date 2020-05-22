@@ -5,3 +5,9 @@
   margin-top: auto;
   padding-bottom: 11px;
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    padding-bottom: 0px;
+  }
+}

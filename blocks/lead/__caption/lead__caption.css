@@ -7,3 +7,16 @@ letter-spacing: 0.15em;
 text-transform: uppercase;
 margin: 0 auto 0 0;
 }
+
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+  margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}
