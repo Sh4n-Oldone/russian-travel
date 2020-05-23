@@ -1,20 +1,33 @@
 .intro__wrapper {
-  width: 100%;
-  max-width: 984px;
+  width: 77%;
   display: flex;
   justify-content: start;
   align-items: flex-start;
   margin: 0 auto 92px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:1280px) {
   .intro__wrapper {
     margin-bottom: 88px;
+    width: 984px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .intro__wrapper {
+    margin-bottom: 88px;
+    width: 92.5%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .intro__wrapper {
+    margin: 0 24px 88px;
   }
 }
 
 @media screen and (max-width:320px) {
   .intro__wrapper {
-    margin-bottom: 64px;
+    margin: 0 16px 64px;
   }
 }

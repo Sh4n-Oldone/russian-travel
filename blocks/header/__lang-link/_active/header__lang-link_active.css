@@ -1,4 +1,4 @@
 .header__lang-link_active {
-  text-decoration-line: underline;
-  /* border-bottom: 1px solid #ffffff; По макету больше подходит такой вариант, но по нему же должен использоваться text-decoration-line */
+  /* text-decoration-line: underline; По макету больше подходит такой вариант, как мне кажется */
+  border-bottom: 1px solid #ffffff;
 }

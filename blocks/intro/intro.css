@@ -8,6 +8,7 @@
 .intro {
   font-family: 'Inter', sans-serif;
   color: #ffffff;
+  text-rendering: optimizeLegibility;
   max-width: 690px;
   display: flex;
   flex-direction: column;

@@ -7,20 +7,33 @@
 .lead {
   font-family: 'Inter', sans-serif;
   color: #ffffff;
+  text-rendering: optimizeLegibility;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  width: 77%;
   max-width: 984px;
   margin: 0 auto 92px;
+}
+
+@media screen and (max-width:1024px) {
+  .lead {
+    margin-bottom: 88px;
+    width: 92.5%;
+  }
 }
 
 @media screen and (max-width:768px) {
   .lead {
     margin-bottom: 88px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width:320px) {
   .lead {
     margin-bottom: 64px;
+    width: 100%;
   }
 }

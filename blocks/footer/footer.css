@@ -5,10 +5,34 @@
 .footer {
   font-family: 'Inter', sans-serif;
   color: #ffffff;
-  max-width: 1184px;
-  width: 100%;
+  text-rendering: optimizeLegibility;
+  width: 92.5%;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   padding-bottom: 24px;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    max-width: 1184px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: 95%;
+  }
 }

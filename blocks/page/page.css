@@ -3,6 +3,7 @@
 .page {
   font-family: 'Inter', sans-serif;
   color: #ffffff;
+  text-rendering: optimizeLegibility;
   background-color: #2a2c2f;
   display: flex;
   flex-direction: column;
