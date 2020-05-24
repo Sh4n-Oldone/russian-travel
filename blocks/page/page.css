@@ -1,7 +1,7 @@
 @import url(/vendor/fonts/inter.css);
 
 .page {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   color: #ffffff;
   text-rendering: optimizeLegibility;
   background-color: #2a2c2f;

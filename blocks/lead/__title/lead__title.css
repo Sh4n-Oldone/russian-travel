@@ -4,7 +4,6 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  font-size: 
   line-height: 1.04;
   margin: 0 auto 32px;
 }
@@ -17,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .lead__title {
     line-height: 1.1;
   }

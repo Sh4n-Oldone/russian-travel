@@ -6,6 +6,9 @@
   height: 100%;
 }
 
+
+/* Куратор сказал, что так можно.
+Это не нарушает целостность блока. */
 .cover__overlay:hover > .cover__background {
   background: black;
   opacity: 0.3;
