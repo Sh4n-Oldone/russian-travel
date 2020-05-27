@@ -2,14 +2,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
-  height: 100%;
+  min-height: calc(100vw * 0.625);
+  text-decoration: none;
+  color: #ffffff;
+  background-image: url("../../../images/__background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(42,44,47,0.3);
+  background-blend-mode: overlay;
 }
 
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.7);
+}
 
-/* Куратор сказал, что так можно.
-Это не нарушает целостность блока. */
-.cover__overlay:hover > .cover__background {
-  background: black;
-  opacity: 0.3;
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    max-width: 1184px;
+    min-height: 740px;
+  }
 }

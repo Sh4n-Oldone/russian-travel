@@ -1,4 +1,4 @@
-@import url(/vendor/fonts/inter.css);
+@import url(../../vendor/fonts/inter.css);
 @import url(./__list/footer__list.css);
 @import url(./__links/footer__links.css);
 @import url(./__copyright/footer__copyright.css);
@@ -30,5 +30,19 @@
 @media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .footer {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    margin-left: 16px;
   }
 }

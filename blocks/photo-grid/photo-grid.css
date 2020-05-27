@@ -36,9 +36,13 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    /* max-width: 288px; */
+    max-width: 288px;
+    width: auto;
     grid-template-columns: 1fr;
-    grid-gap: 12px;
-    margin: 0 16px 64px;
+    grid-row-gap: 12px;
+    grid-column-gap: 0;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 64px;
   }
 }

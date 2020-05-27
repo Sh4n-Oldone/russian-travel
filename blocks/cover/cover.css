@@ -1,7 +1,7 @@
-@import url(/vendor/fonts/inter.css);
+@import url(../../vendor/fonts/inter.css);
 @import url(./__overlay/cover__overlay.css);
-@import url(./__background/cover__background.css);
-@import url(./__wrapper/__wrapper.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
 
 
 .cover {
@@ -9,15 +9,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   color: #ffffff;
   text-rendering: optimizeLegibility;
   margin: 0 auto 92px;
   max-width: 1184px;
   width: 92.5%;
-  max-height: 740px;
-  position: relative;
 }
+
 
 @media screen and (min-width: 1280px) {
   .cover {
@@ -28,5 +27,23 @@
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
+    height: calc((100vw - 50px) * 0.625);
+    max-width: 1024px;
+    max-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    height: calc((100vw) * 0.625);
+    max-width: 768px;
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    max-height: 200px;
   }
 }

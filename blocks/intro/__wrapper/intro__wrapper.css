@@ -1,5 +1,6 @@
 .intro__wrapper {
   width: 77%;
+  max-width: 690px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -10,6 +11,14 @@
 
 @media screen and (max-width:768px) {
   .intro__wrapper {
-    width: 100%;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .intro__wrapper {
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 288px;
   }
 }

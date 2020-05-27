@@ -1,4 +1,4 @@
-@import url(/vendor/fonts/inter.css);
+@import url(../../vendor/fonts/inter.css);
 @import url(./__logo/header__logo.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-list/header__lang-list.css);
@@ -16,12 +16,6 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (min-width: 1280px) {
-  .header {
-    max-width: 1184px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .header {
     width: 95%;
@@ -31,5 +25,6 @@
 @media screen and (max-width: 320px) {
   .header {
     max-height: 42px;
+    width: 90%;
   }
 }

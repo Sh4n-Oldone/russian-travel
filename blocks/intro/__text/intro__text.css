@@ -5,3 +5,10 @@
   line-height: 1.62;
   margin:0 auto 32px 0;
 }
+
+
+@media screen and (max-width:400px) {
+  .intro__text {
+    width: 100%;
+  }
+}
