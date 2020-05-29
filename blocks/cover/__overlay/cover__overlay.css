@@ -7,15 +7,11 @@
   min-height: calc(100vw * 0.625);
   text-decoration: none;
   color: #ffffff;
-  background-image: url("../../../images/__background.jpg");
-  background-size: cover;
-  background-position: center;
   background-color: rgba(42,44,47,0.3);
-  background-blend-mode: overlay;
 }
 
 .cover__overlay:hover {
-  background-color: rgba(42, 44, 47, 0.7);
+  background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (min-width: 1280px) {
